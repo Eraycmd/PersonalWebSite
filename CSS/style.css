@@ -1,0 +1,339 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+#body {
+    background-color: #111319;
+}
+
+/*Nav bar*/
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: #1e272e;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav .navbar-brand {
+    color: #EAEAEA;
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+nav .navbar-brand:hover {
+    color: #597692;
+    transition: 0.5s;
+}
+
+nav .navbar-nav {
+    margin: 0 auto;
+}
+
+nav .navbar-nav li a {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+#navbarNav ul li a {
+    color: #EAEAEA;
+    font-weight: 550;
+}
+
+#navbarNav ul li a:hover {
+    color: #597692;
+    transition: 0.5s;
+}
+
+
+/*Home*/
+.containerHome {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid grey;
+    width: 100%;
+    height: 100vh;
+    margin-top: -50px;
+    background-image: url(/Tools/dark-minimal-mountains.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.profilePhoto {
+    margin-left: 60vh;
+    margin-top: 29vh;
+}
+
+.profilePhoto img {
+    border: 13px solid #1e272e
+        /*rengi degishtirmek lazim*/
+    ;
+    border-radius: 360vh;
+    width: 50vh;
+}
+
+.aboutMe {
+    position: absolute;
+    color: #fff;
+    margin-left: 120vh;
+    margin-top: 40vh;
+}
+
+.aboutMe h1 {
+    font-size: 60px;
+}
+
+.aboutMe span {
+    font-weight: 600;
+    color: #111319;
+    text-shadow: 0px 0px 1px black, 1px 1px 2px #e6e8eb, 0 0 20px #e6e8eb,
+        0 0 5px #e6e8eb;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-top: 53vh;
+}
+
+.socialMedia a i {
+    font-size: 40px;
+    color: #E5E5E5;
+    padding: 0px 10px;
+    border-radius: 100vh;
+}
+
+.socialMedia a i:hover {
+    transition: .6s;
+    color: royalblue;
+    transform: translateY(-2px);
+}
+
+/*Home*/
+
+/*About*/
+.containerAbout {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid grey;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerAbout h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 30vh;
+}
+
+.containerAbout p {
+    color: #fff;
+    font-size: 17px;
+    margin: 0 auto;
+    margin-top: 3vh;
+}
+
+.educationTimeLine {
+    margin-top: -18vh;
+    margin-left: 180vh;
+    color: #fff;
+}
+
+.educationTimeLine p {
+    font-size: 15px;
+}
+
+/*About*/
+
+/*Skills*/
+.containerSkills {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid grey;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerSkills h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 30vh;
+}
+
+.containerSkills h1 span {
+    font-size: 15px;
+}
+
+.mySkillsLanguages,
+.mySkillsTools {
+    position: absolute;
+    margin-top: 45vh;
+    color: #fff;
+}
+
+.mySkillsLanguages p,
+.mySkillsTools p {
+    font-size: 20px;
+}
+
+.mySkillsLanguages {
+    margin-left: 70vh;
+}
+
+.mySkillsTools {
+    margin-left: 120vh;
+}
+
+/* 
+.mySkills img {
+    width: 10vh;
+} */
+
+/*Skills*/
+
+/*Projects*/
+.containerProjects {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid grey;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerProjects h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 15vh;
+}
+
+.Projects {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.project1,
+.project2,
+.project3 {
+    justify-content: space-around;
+    padding: 0vh 2vh;
+    margin-top: 6vh;
+}
+
+.project1 img,
+.project2 img,
+.project3 img {
+    width: 60vh;
+    height: 50vh;
+    border: 1px solid #1e272e;
+    object-fit: cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.project1 p,
+.project2 p,
+.project3 p {
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+}
+
+.Projects a {
+    text-decoration: none;
+}
+
+.Projects a p:hover {
+    color: #597692;
+    transition: 0.3s;
+}
+
+/*Projects*/
+
+/*Contact*/
+.containerContact {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid grey;
+    width: 100%;
+    height: 100vh;
+}
+
+.contactLeftSide h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 10vh;
+    margin-left: 45vh;
+}
+
+.contactLeftSide {
+    flex-basis: 35%;
+    margin-top: 5vh;
+}
+
+.contactLeftSide p {
+    margin-left: 45vh;
+    color: #fff;
+}
+
+.contactLeftSide p i {
+    font-size: 25px;
+    margin-right: 15px;
+    color: #597692;
+}
+
+.contactRightSide {
+    margin-left: 120vh;
+    margin-top: -28vh;
+}
+
+
+.contactLeftSide a {
+    text-decoration: none;
+}
+
+form input,
+form textarea {
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background: #597692;
+    border: none;
+}
+
+.btn.btn2:hover {
+    background-color: aqua;
+}
+
+/*Contact*/
