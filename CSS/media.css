@@ -1,3 +1,175 @@
+@media screen and (min-width:300px) and (max-width:599px) {
+    #body {
+        width: 100%;
+    }
+
+    /*Nav bar*/
+    nav .navbar-brand {
+        margin-top: -3.5vh;
+    }
+
+    nav button {
+        margin-top: -3.2vh;
+        margin-left: -20vh;
+    }
+
+    /*Nav bar*/
+
+    /*Home*/
+    .profilePhoto {
+        display: none;
+    }
+
+    /* .profilePhoto img {
+        border: 8px solid #1e272e
+            /*rengi degishtirmek lazim
+        ;
+        border-radius: 360vh;
+        width: 40vh;
+    } */
+
+    .aboutMe {
+        position: absolute;
+        color: #fff;
+        margin-left: 14vh;
+        margin-top: 44vh;
+    }
+
+    .aboutMe h1 {
+        font-size: 30px;
+    }
+
+    .socialMedia {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        margin-top: 46vh;
+    }
+
+    .socialMedia a i {
+        font-size: 40px;
+        color: #E5E5E5;
+        padding: 0px 10px;
+        border-radius: 100vh;
+    }
+
+    /*Home*/
+
+    /*About*/
+    .containerAbout h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        color: #fff;
+        margin-top: 15vh;
+    }
+
+    .containerAbout p {
+        color: #fff;
+        font-size: 13px;
+        margin: 0 auto;
+        margin-top: 3vh;
+    }
+
+    .educationTimeLine {
+        margin-top: 5vh;
+        margin-left: 20vh;
+        color: #fff;
+    }
+
+    /*About*/
+
+    /*Skills*/
+    .containerSkills h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        color: #fff;
+        margin-top: 15vh;
+    }
+
+    .containerSkills h1 span {
+        font-size: 10px;
+    }
+
+    .mySkillsLanguages {
+        margin-left: 10vh;
+    }
+
+    .mySkillsTools {
+        margin-left: 30vh;
+    }
+
+    /*Skills*/
+
+    /*Projects*/
+    .containerProjects {
+        height: 180vh;
+    }
+
+    .containerProjects h1 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #fff;
+        margin-top: 15vh;
+    }
+
+    .Projects {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        justify-content: space-around;
+        padding: 0vh 1vh;
+        margin-top: 6vh;
+    }
+
+    .project1 img,
+    .project2 img,
+    .project3 img {
+        width: 40vh;
+        height: 30vh;
+        border: 1px solid #1e272e;
+        object-fit: cover;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    /*Projects*/
+
+    /*Contact*/
+
+    .containerContact {
+        height: 150vh;
+    }
+
+    .contactLeftSide h1 {
+        font-size: 30px;
+        font-weight: bolder;
+        color: #fff;
+        margin-top: 10vh;
+        margin-left: 2vh;
+    }
+
+    .contactLeftSide p {
+        margin-left: 2vh;
+        color: #fff;
+    }
+
+
+    .contactRightSide {
+        margin-left: 20vh;
+        margin-top: -12vh;
+    }
+
+    /*Contact*/
+}
+
 @media screen and (min-width: 600px) and (max-width:800px) {
     #body {
         width: 100%;
@@ -52,12 +224,6 @@
         color: #E5E5E5;
         padding: 0px 10px;
         border-radius: 100vh;
-    }
-
-    .socialMedia a i:hover {
-        transition: .6s;
-        color: royalblue;
-        transform: translateY(-2px);
     }
 
     /*Home*/
