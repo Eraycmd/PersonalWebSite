@@ -1,38 +1,23 @@
 @media screen and (max-width: 600px) {
+    #body {
+        width: 100%;
+    }
+
+    /*Nav bar*/
+    nav .navbar-brand {
+        margin-top: -3.5vh;
+    }
+
+    nav button {
+        margin-top: -3.2vh;
+    }
+
+    /*Nav bar*/
 
     /*Home*/
-    nav {
-        display: flex;
-        flex-direction: row;
-        width: 83%;
-        height: 50px;
-        background-color: #1e272e;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    nav .navbar-brand {
-        color: #EAEAEA;
-        font-family: cursive;
-        font-size: 35px;
-        margin-top: -3.5vh;
-        font-weight: 600;
-    }
-
-    .containerHome {
-        display: flex;
-        flex-direction: column;
-        border-top: 1px solid grey;
-        width: 83%;
-        height: 100vh;
-        margin-top: -50px;
-        background-image: url(/Tools/dark-minimal-mountains.png);
-        background-size: cover;
-        background-position: center;
-    }
-
     .profilePhoto {
-        margin-left: 20vh;
-        margin-top: 29vh;
+        margin-left: 25vh;
+        margin-top: 31vh;
     }
 
     .profilePhoto img {
@@ -46,21 +31,145 @@
     .aboutMe {
         position: absolute;
         color: #fff;
-        margin-left: 65vh;
-        margin-top: 43vh;
+        margin-left: 70vh;
+        margin-top: 44vh;
     }
 
     .aboutMe h1 {
         font-size: 30px;
     }
 
-    .aboutMe span {
-        font-weight: 600;
-        color: #111319;
-        text-shadow: 0px 0px 1px black, 1px 1px 2px #e6e8eb, 0 0 20px #e6e8eb,
-            0 0 5px #e6e8eb;
+    .socialMedia {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        margin-top: 46vh;
+    }
+
+    .socialMedia a i {
+        font-size: 40px;
+        color: #E5E5E5;
+        padding: 0px 10px;
+        border-radius: 100vh;
+    }
+
+    .socialMedia a i:hover {
+        transition: .6s;
+        color: royalblue;
+        transform: translateY(-2px);
     }
 
     /*Home*/
+
+    /*About*/
+    .containerAbout h1 {
+        text-align: center;
+        font-size: 60px;
+        font-weight: bolder;
+        color: #fff;
+        margin-top: 15vh;
+    }
+
+    .containerAbout p {
+        color: #fff;
+        font-size: 15px;
+        margin: 0 auto;
+        margin-top: 3vh;
+    }
+
+    .educationTimeLine {
+        margin-top: 5vh;
+        margin-left: 80vh;
+        color: #fff;
+    }
+
+    /*About*/
+
+    /*Skills*/
+    .containerSkills h1 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #fff;
+        margin-top: 15vh;
+    }
+
+    .mySkillsLanguages {
+        margin-left: 20vh;
+    }
+
+    .mySkillsTools {
+        margin-left: 70vh;
+    }
+
+    /*Skills*/
+
+    /*Projects*/
+    .containerProjects {
+        height: 180vh;
+    }
+
+    .containerProjects h1 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #fff;
+        margin-top: 15vh;
+    }
+
+    .Projects {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        justify-content: space-around;
+        padding: 0vh 1vh;
+        margin-top: 6vh;
+    }
+
+    .project1 img,
+    .project2 img,
+    .project3 img {
+        width: 40vh;
+        height: 30vh;
+        border: 1px solid #1e272e;
+        object-fit: cover;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    /*Projects*/
+
+    /*Contact*/
+
+    .containerContact {
+        height: 150vh;
+    }
+
+    .contactLeftSide h1 {
+        font-size: 50px;
+        font-weight: bolder;
+        color: #fff;
+        margin-top: 10vh;
+        margin-left: 28vh;
+    }
+
+    .contactLeftSide p {
+        margin-left: 28vh;
+        color: #fff;
+    }
+
+
+    .contactRightSide {
+        margin-left: 20vh;
+        margin-top: -12vh;
+    }
+
+    /*Contact*/
+
 
 }
