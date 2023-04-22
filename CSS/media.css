@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) and (max-width:800px) {
     #body {
         width: 100%;
     }
@@ -10,6 +10,7 @@
 
     nav button {
         margin-top: -3.2vh;
+        margin-left: -20vh;
     }
 
     /*Nav bar*/
@@ -79,7 +80,7 @@
 
     .educationTimeLine {
         margin-top: 5vh;
-        margin-left: 80vh;
+        margin-left: 70vh;
         color: #fff;
     }
 
@@ -88,10 +89,14 @@
     /*Skills*/
     .containerSkills h1 {
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bolder;
         color: #fff;
         margin-top: 15vh;
+    }
+
+    .containerSkills h1 span {
+        font-size: 10px;
     }
 
     .mySkillsLanguages {
