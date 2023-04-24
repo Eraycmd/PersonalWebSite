@@ -6,12 +6,12 @@
 
     /*Nav bar*/
     nav .navbar-brand {
-        margin-top: -2.5vh;
+        margin-top: -1.5vh;
         font-family: monospace;
     }
 
     nav button {
-        margin-top: -2vh;
+        margin-top: -1vh;
         margin-left: -20vh;
     }
 
@@ -96,10 +96,12 @@
 
     .mySkillsLanguages {
         margin-left: 10vh;
+        margin-top: 35vh;
     }
 
     .mySkillsTools {
         margin-left: 30vh;
+        margin-top: 35vh;
     }
 
     /*Skills*/
