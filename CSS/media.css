@@ -197,8 +197,8 @@
 
     /*Home*/
     .profilePhoto {
-        margin-left: 25vh;
-        margin-top: 31vh;
+        margin-left: 18vh;
+        margin-top: 33vh;
     }
 
     .profilePhoto img {
@@ -206,13 +206,13 @@
             /*rengi degishtirmek lazim*/
         ;
         border-radius: 360vh;
-        width: 40vh;
+        width: 35vh;
     }
 
     .aboutMe {
         position: absolute;
         color: #fff;
-        margin-left: 70vh;
+        margin-left: 55vh;
         margin-top: 44vh;
     }
 
@@ -254,7 +254,7 @@
 
     .educationTimeLine {
         margin-top: 5vh;
-        margin-left: 70vh;
+        margin-left: 50vh;
         color: #fff;
     }
 
@@ -275,10 +275,12 @@
 
     .mySkillsLanguages {
         margin-left: 20vh;
+        margin-top: 35vh;
     }
 
     .mySkillsTools {
-        margin-left: 70vh;
+        margin-left: 55vh;
+        margin-top: 35vh;
     }
 
     /*Skills*/
@@ -334,11 +336,11 @@
         font-weight: bolder;
         color: #fff;
         margin-top: 10vh;
-        margin-left: 28vh;
+        margin-left: 20vh;
     }
 
     .contactLeftSide p {
-        margin-left: 28vh;
+        margin-left: 20vh;
         color: #fff;
     }
 
