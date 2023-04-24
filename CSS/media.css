@@ -1,3 +1,4 @@
+/*Telephone*/
 @media screen and (min-width:300px) and (max-width:599px) {
     #body {
         width: 100%;
@@ -5,11 +6,12 @@
 
     /*Nav bar*/
     nav .navbar-brand {
-        margin-top: -3.5vh;
+        margin-top: -2.5vh;
+        font-family: monospace;
     }
 
     nav button {
-        margin-top: -3.2vh;
+        margin-top: -2vh;
         margin-left: -20vh;
     }
 
@@ -145,7 +147,7 @@
     /*Contact*/
 
     .containerContact {
-        height: 150vh;
+        height: 115vh;
     }
 
     .contactLeftSide h1 {
@@ -153,23 +155,26 @@
         font-weight: bolder;
         color: #fff;
         margin-top: 10vh;
-        margin-left: 2vh;
+        margin-left: 8vh;
     }
 
     .contactLeftSide p {
-        margin-left: 2vh;
+        margin-left: 8vh;
         color: #fff;
     }
 
 
     .contactRightSide {
-        margin-left: 20vh;
-        margin-top: -12vh;
+        margin-left: 10vh;
+        margin-top: -10vh;
     }
 
     /*Contact*/
 }
 
+/*Telephone*/
+
+/*Tablet*/
 @media screen and (min-width: 600px) and (max-width:800px) {
     #body {
         width: 100%;
@@ -341,6 +346,6 @@
     }
 
     /*Contact*/
-
-
 }
+
+/*Tablet*/
