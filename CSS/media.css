@@ -197,21 +197,22 @@
 
     /*Home*/
     .profilePhoto {
-        display: none;
+        margin-left: 18vh;
+        margin-top: 33vh;
     }
 
-    /* .profilePhoto img {
+    .profilePhoto img {
         border: 8px solid #1e272e
-            /*rengi degishtirmek lazim
+            /*rengi degishtirmek lazim*/
         ;
         border-radius: 360vh;
         width: 35vh;
-    } */
+    }
 
     .aboutMe {
         position: absolute;
         color: #fff;
-        margin-left: 33vh;
+        margin-left: 55vh;
         margin-top: 44vh;
     }
 
