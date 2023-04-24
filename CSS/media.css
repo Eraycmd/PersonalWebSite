@@ -197,8 +197,8 @@
 
     /*Home*/
     .profilePhoto {
-        margin-left: 18vh;
-        margin-top: 33vh;
+        position: absolute;
+        margin: 30vh 20vh auto;
     }
 
     .profilePhoto img {
