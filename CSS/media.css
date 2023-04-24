@@ -1,5 +1,5 @@
 /*Telephone*/
-@media screen and (min-width:300px) and (max-width:599px) {
+@media (min-width: 320px) and (max-width: 480px) {
     #body {
         width: 100%;
     }
@@ -177,7 +177,7 @@
 /*Telephone*/
 
 /*Tablet*/
-@media screen and (min-width: 600px) and (max-width:800px) {
+@media (min-width: 481px) and (max-width: 767px) {
     #body {
         width: 100%;
     }
@@ -351,3 +351,7 @@
 }
 
 /*Tablet*/
+
+/*Big tablet*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+/*Big tablet*/
